@@ -1,0 +1,41 @@
+{
+    "name": "stephan-strate/php-music-brainz-api",
+    "type": "library",
+    "description": "PHP wrapper for MusicBrainz api. Supports object-oriented access using repositories and factories.",
+    "keywords": ["musicbrainz", "library", "php", "api"],
+    "homepage": "https://github.com/stephan-strate/php-music-brainz-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephan Strate",
+            "email": "hello@stephan.codes",
+            "homepage": "https://www.stephan-strate.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "php-http/httplug": "^2.2",
+        "php-http/client-common": "^2.3",
+        "php-http/discovery": "^1.10",
+        "php-http/client-implementation": "^1.0",
+        "netresearch/jsonmapper": "^3.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "guzzlehttp/psr7": "^1.2",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/mock-client": "^1.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MusicBrainz\\": "lib/MusicBrainz/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MusicBrainz\\Tests\\": "test/MusicBrainz/Tests/"
+        }
+    }
+}
