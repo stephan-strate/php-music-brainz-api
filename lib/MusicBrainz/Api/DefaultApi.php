@@ -32,8 +32,8 @@ abstract class DefaultApi extends AbstractApi
 
     /**
      * Fetch specific entity using the MusicBrainz identifier.
-     * @param string $mbid      MusicBrainz identifier
-     * @param array $includes   include more information about the entity
+     * @param string $mbid              MusicBrainz identifier
+     * @param array<string> $includes   include more information about the entity
      * @return mixed|string
      * @see https://musicbrainz.org/doc/MusicBrainz_API#Subqueries
      */
@@ -49,10 +49,10 @@ abstract class DefaultApi extends AbstractApi
      * @param int $limit                    amount of entities to fetch (api limit is 100, more will be splitted
      *                                      into multiple request automatically)
      * @param int $offset                   typical offset for pagination
-     * @param array $includes               include more information about the entity
-     * @return array
+     * @param array<string> $includes       include more information about the entity
+     * @return mixed
      */
-    public function browse(string $browsingEntityType, string $mbid, int $limit = 100, int $offset = 0, array $includes = array()): array
+    public function browse(string $browsingEntityType, string $mbid, int $limit = 100, int $offset = 0, array $includes = array())
     {
         $entities = [];
 
@@ -80,10 +80,10 @@ abstract class DefaultApi extends AbstractApi
      * @param string $browsingEntityType    filter entity type (eg. artist)
      * @param string $mbid                  MusicBrainz identifier of filter entity type
      * @param int $offset                   typical offset for pagination
-     * @param array $includes               include more information about the entity
-     * @return array
+     * @param array<string> $includes       include more information about the entity
+     * @return mixed
      */
-    public function browseAll(string $browsingEntityType, string $mbid, int $offset = 0, array $includes = array()): array
+    public function browseAll(string $browsingEntityType, string $mbid, int $offset = 0, array $includes = array())
     {
         return $this->browse($browsingEntityType, $mbid, PHP_INT_MAX, $offset, $includes);
     }
@@ -100,7 +100,12 @@ abstract class DefaultApi extends AbstractApi
             '&offset=' . $offset);
     }
 
-    protected static function includeParameter($includes): string
+    /**
+     * Generate includes string.
+     * @param array<string> $includes
+     * @return string
+     */
+    protected static function includeParameter(array $includes): string
     {
         return implode('+', $includes);
     }

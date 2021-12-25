@@ -21,7 +21,6 @@ use Http\Discovery\Psr17FactoryDiscovery;
 use MusicBrainz\Api\AbstractApi;
 use MusicBrainz\Api\Core\Artist;
 use MusicBrainz\HttpClient\Builder;
-use Psr\Http\Client\ClientInterface;
 
 /**
  * Class Client
@@ -98,17 +97,5 @@ class Client
     public function getHttpClient(): HttpMethodsClientInterface
     {
         return $this->httpClientBuilder->getHttpClient();
-    }
-
-    /**
-     * Create api client with predefined http client.
-     * Can eg. be used for mocking in tests.
-     * @param ClientInterface $httpClient
-     * @return Client
-     */
-    public static function createWithHttpClient(ClientInterface $httpClient): self
-    {
-        $builder = new Builder($httpClient);
-        return new self($builder);
     }
 }

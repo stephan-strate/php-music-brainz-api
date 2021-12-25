@@ -26,7 +26,7 @@ class Genre extends DefaultApi
 {
     protected string $entityType = 'genre';
 
-    public function browse(string $browsingEntityType, string $mbid, int $limit = 100, int $offset = 0, array $includes = array()): array
+    public function browse(string $browsingEntityType, string $mbid, int $limit = 100, int $offset = 0, array $includes = array())
     {
         throw new NotImplementedException('MusicBrainz does not support browse requests for genre entity.');
     }
