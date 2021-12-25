@@ -12,16 +12,16 @@ Inspired by [php-github-api](https://github.com/KnpLabs/php-github-api) and [php
 
 Using composer:
 ```
-$ composer require stephan-strate/php-music-brainz-api
+$ composer require stephan-strate/php-music-brainz-api guzzlehttp/guzzle:^7.2 http-interop/http-factory-guzzle:^1.0
 ```
 
-Why `php-http/guzzle6-adapter`? This library is decoupled from any http client using [HTTPlug](http://httplug.io/).
+Why `guzzlehttp/guzzle:^7.2`? This library is decoupled from any http client using [HTTPlug](http://httplug.io/).
 
 ## Usage
 
 First you want to create the client:
 ```php
-$client = new \MusicBrainz\Client();
+$client = new \MusicBrainz\Client('MyApplication', '1.1.0', 'contact@example.com');
 ```
 
 Using this client, you can retrieve all other objects/apis.
