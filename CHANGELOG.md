@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Bump phpstan/phpstan from 1.2.0 to 1.3.0 ([#3](https://github.com/stephan-strate/php-music-brainz-api/pull/3))
+- Bump symfony/property-access from 5.4.0 to 5.4.2 ([#2](https://github.com/stephan-strate/php-music-brainz-api/pull/2))
+- Bump symfony/serializer from 5.4.0 to 5.4.2 ([#1](https://github.com/stephan-strate/php-music-brainz-api/pull/1))
 
 ### Removed
 
@@ -16,5 +19,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Introduced basic api wrapper structure
 - Added [documented](https://musicbrainz.org/doc/MusicBrainz_API) endpoints
 
-[Unreleased]: https://github.com/stephan-strate/php-cover-art-archive-api/compare/v0.0.1-alpha...HEAD
-[0.0.1-alpha]: https://github.com/stephan-strate/php-cover-art-archive-api/releases/tag/v0.0.1-alpha
+[Unreleased]: https://github.com/stephan-strate/php-music-brainz-api/compare/v0.0.1-alpha...HEAD
+[0.0.1-alpha]: https://github.com/stephan-strate/php-music-brainz-api/releases/tag/v0.0.1-alpha
