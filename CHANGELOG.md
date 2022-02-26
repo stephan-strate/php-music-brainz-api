@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump phpstan/phpstan from 1.2.0 to 1.4.2 ([#3](https://github.com/stephan-strate/php-music-brainz-api/pull/3), [#4](https://github.com/stephan-strate/php-music-brainz-api/pull/4), [#5](https://github.com/stephan-strate/php-music-brainz-api/pull/5), [#6](https://github.com/stephan-strate/php-music-brainz-api/pull/6), [#7](https://github.com/stephan-strate/php-music-brainz-api/pull/7), [#9](https://github.com/stephan-strate/php-music-brainz-api/pull/9))
 - Bump symfony/property-access from 5.4.0 to 5.4.2 ([#2](https://github.com/stephan-strate/php-music-brainz-api/pull/2))
 - Bump symfony/serializer from 5.4.0 to 5.4.2 ([#1](https://github.com/stephan-strate/php-music-brainz-api/pull/1))
-- Bump phpunit/phpunit from 9.5.11 to 9.5.13 ([#11](https://github.com/stephan-strate/php-music-brainz-api/pull/11))
+- Bump phpunit/phpunit from 9.5.11 to 9.5.16 ([#11](https://github.com/stephan-strate/php-music-brainz-api/pull/11), [#20](https://github.com/stephan-strate/php-music-brainz-api/pull/20))
 
 ### Removed
 
