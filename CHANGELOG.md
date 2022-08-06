@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump phpunit/phpunit from 9.5.11 to 9.5.21 ([#11](https://github.com/stephan-strate/php-music-brainz-api/pull/11), [#20](https://github.com/stephan-strate/php-music-brainz-api/pull/20), [#27](https://github.com/stephan-strate/php-music-brainz-api/pull/27), [#30](https://github.com/stephan-strate/php-music-brainz-api/pull/30), [#69](https://github.com/stephan-strate/php-music-brainz-api/pull/69))
 - Bump php-http/httplug from 2.2.0 to 2.3.0 ([#19](https://github.com/stephan-strate/php-music-brainz-api/pull/19))
 - Bump guzzlehttp/psr7 from 2.1.0 to 2.4.0 ([#32](https://github.com/stephan-strate/php-music-brainz-api/pull/32), [#78](https://github.com/stephan-strate/php-music-brainz-api/pull/78))
-- Bump guzzlehttp/guzzle from 7.4.1 to 7.4.2 ([#31](https://github.com/stephan-strate/php-music-brainz-api/pull/31))
+- Bump guzzlehttp/guzzle from 7.4.1 to 7.4.5 ([#31](https://github.com/stephan-strate/php-music-brainz-api/pull/31), [#79](https://github.com/stephan-strate/php-music-brainz-api/pull/79))
 - Bump php-http/discovery from 1.14.1 to 1.14.3 ([#73](https://github.com/stephan-strate/php-music-brainz-api/pull/73))
 
 ### Removed
