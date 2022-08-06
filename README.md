@@ -12,10 +12,10 @@ Inspired by [php-github-api](https://github.com/KnpLabs/php-github-api) and [php
 
 Using composer:
 ```
-$ composer require stephan-strate/php-music-brainz-api guzzlehttp/guzzle:^7.2 http-interop/http-factory-guzzle:^1.0
+$ composer require stephan-strate/php-music-brainz-api php-http/guzzle7-adapter:^1.0 http-interop/http-factory-guzzle:^1.0
 ```
 
-Why `guzzlehttp/guzzle:^7.2`? This library is decoupled from any http client using [HTTPlug](http://httplug.io/).
+Why `php-http/guzzle7-adapter:^1.0`? This library is decoupled from any http client using [HTTPlug](http://httplug.io/).
 
 ## Usage
 
