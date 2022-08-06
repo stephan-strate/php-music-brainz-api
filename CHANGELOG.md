@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+
+### Removed
+
+## [0.0.2-alpha] - 2022-08-06
+### Added
+
+### Changed
 - Bump phpstan/phpstan from 1.2.0 to 1.8.2 ([#3](https://github.com/stephan-strate/php-music-brainz-api/pull/3), [#4](https://github.com/stephan-strate/php-music-brainz-api/pull/4), [#5](https://github.com/stephan-strate/php-music-brainz-api/pull/5), [#6](https://github.com/stephan-strate/php-music-brainz-api/pull/6), [#7](https://github.com/stephan-strate/php-music-brainz-api/pull/7), [#9](https://github.com/stephan-strate/php-music-brainz-api/pull/9), [#17](https://github.com/stephan-strate/php-music-brainz-api/pull/17), [#28](https://github.com/stephan-strate/php-music-brainz-api/pull/28), [#29](https://github.com/stephan-strate/php-music-brainz-api/pull/29), [#75](https://github.com/stephan-strate/php-music-brainz-api/pull/75))
 - Bump symfony/property-access from 5.4.0 to 5.4.11 ([#2](https://github.com/stephan-strate/php-music-brainz-api/pull/2), [#13](https://github.com/stephan-strate/php-music-brainz-api/pull/13), [#22](https://github.com/stephan-strate/php-music-brainz-api/pull/22), [#76](https://github.com/stephan-strate/php-music-brainz-api/pull/76))
 - Bump symfony/serializer from 5.4.0 to 5.4.11 ([#1](https://github.com/stephan-strate/php-music-brainz-api/pull/1), [#12](https://github.com/stephan-strate/php-music-brainz-api/pull/12), [#21](https://github.com/stephan-strate/php-music-brainz-api/pull/21), [#24](https://github.com/stephan-strate/php-music-brainz-api/pull/24), [#77](https://github.com/stephan-strate/php-music-brainz-api/pull/77))
@@ -27,3 +34,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [Unreleased]: https://github.com/stephan-strate/php-music-brainz-api/compare/v0.0.1-alpha...HEAD
 [0.0.1-alpha]: https://github.com/stephan-strate/php-music-brainz-api/releases/tag/v0.0.1-alpha
+[0.0.2-alpha]: https://github.com/stephan-strate/php-music-brainz-api/releases/tag/v0.0.2-alpha
