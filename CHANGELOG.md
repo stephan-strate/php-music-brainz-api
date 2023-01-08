@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Bump phpstan/phpstan from 1.8.2 to 1.9.7 ([#113](https://github.com/stephan-strate/php-music-brainz-api/pull/113))
 
 ### Removed
 
