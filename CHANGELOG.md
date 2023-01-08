@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump phpstan/phpstan from 1.8.2 to 1.9.7 ([#113](https://github.com/stephan-strate/php-music-brainz-api/pull/113))
 - Bump symfony/serializer from 5.4.11 to 5.4.17 ([#110](https://github.com/stephan-strate/php-music-brainz-api/pull/110))
 - Bump guzzlehttp/guzzle from 7.4.5 to 7.5.0 ([#84](https://github.com/stephan-strate/php-music-brainz-api/pull/84))
+- Bump phpunit/phpunit from 9.5.21 to 9.5.27 ([#107](https://github.com/stephan-strate/php-music-brainz-api/pull/107))
 
 ### Removed
 
