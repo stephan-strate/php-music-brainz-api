@@ -27,7 +27,7 @@
 
         "symfony/serializer": "^5.2",
         "symfony/property-access": "^5.2",
-        "doctrine/annotations": "^1.11",
+        "doctrine/annotations": "^1.11 || ^2.0",
 
         "ext-json": "*",
         "ext-gd": "*"
